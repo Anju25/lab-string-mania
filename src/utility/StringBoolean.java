@@ -45,5 +45,25 @@ public class StringBoolean {
 		boolean output = input1.equalsIgnoreCase(input2);
 		return output;
 	}
+	public String concatenate(String input1,String input2)
+	{
+		return input1.concat(input2);
+	}
+	public int indexOf(String input,char ch)
+	{
+		return indexOf(input,ch);
+		/*int index=0;
+		for(int i=0;i<input.length();i++)
+		{
+			if(input.charAt(i)==ch)
+				index=i;
+		}
+		return index;*/
+	}
+	public String[] split(String input1,String input2)
+	{
+		String[] s=input1.split(input2);
+		return s;
+	}
 
 }
